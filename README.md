@@ -45,8 +45,8 @@ Conventions:
 | :--: | :--- | :--: | :----: | :--: | :--- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [✓](./1_twoSum_1.py) | [✓](./1_twoSum_1.java) | Hash map, single pass |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [✓](./49_groupAnagrams_1.py) | [✓](./49_groupAnagrams_1.java) | Hash map keyed by sorted string |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | — | [✓](./128_longestConsecutiveSequence_1.java) | Hash set, expand only from sequence starts (`O(n)`) |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | — | [✓₁](./283_moveZeroes_1.java) · [✓₂](./283_moveZeroes_2.java) | 1) Count zeros, shift non-zeros left, zero-fill the tail (two-pass); 2) Fast/slow two-pointer, swap on non-zero (one-pass) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [✓](./128_longestConsecutiveSequence_1.py) | [✓](./128_longestConsecutiveSequence_1.java) | Hash set, expand only from sequence starts (`O(n)`) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [✓](./283_moveZeroes_1.py) | [✓₁](./283_moveZeroes_1.java) · [✓₂](./283_moveZeroes_2.java) | 1) Count zeros, shift non-zeros left, zero-fill the tail (two-pass); 2) Fast/slow two-pointer, swap on non-zero (one-pass) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | [✓](./2235_addTwoIntegers_1.py) | [✓](./2235_addTwoIntegers_1.java) | Warm-up |
 
 > Work in progress.
