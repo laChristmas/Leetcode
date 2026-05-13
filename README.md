@@ -27,20 +27,24 @@ My LeetCode practice repository for algorithms and data structures. I keep solut
 
 Examples:
 
-- `1_twosum_1.py`: Problem 1 (Two Sum), solution 1, Python.
-- `1_twosum_2.java`: Problem 1 (Two Sum), solution 2, Java.
+- `1_twoSum_1.py`: Problem 1 (Two Sum), solution 1, Python.
+- `49_groupAnagrams_1.java`: Problem 49 (Group Anagrams), solution 1, Java.
+- `128_longestConsecutiveSequence_1.java`: Problem 128 (Longest Consecutive Sequence), solution 1, Java.
 
 Conventions:
 
 - Problem numbers match LeetCode.
-- English titles are lowercase, with spaces and punctuation removed.
+- English titles use `lowerCamelCase`: the first word is lowercase, every subsequent word is capitalized, and spaces and punctuation are removed (e.g. `twoSum`, `groupAnagrams`, `longestConsecutiveSequence`). Single-word titles are simply lowercase (e.g. an imaginary `42_answer_1.py`).
 - Solution indices start at `1` and increase; the same index can be reused across languages for the same idea.
 
 ## Progress
 
 | # | Problem | Difficulty | Python | Java | Notes |
 | :--: | :--- | :--: | :----: | :--: | :--- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [✓](./1_twosum_1.py) | [✓](./1_twosum_1.java) | Hash map, single pass |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [✓](./1_twoSum_1.py) | [✓](./1_twoSum_1.java) | Hash map, single pass |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [✓](./49_groupAnagrams_1.py) | [✓](./49_groupAnagrams_1.java) | Hash map keyed by sorted string |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | — | [✓](./128_longestConsecutiveSequence_1.java) | Hash set, expand only from sequence starts (`O(n)`) |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | [✓](./2235_addTwoIntegers_1.py) | [✓](./2235_addTwoIntegers_1.java) | Warm-up |
 
 > Work in progress.
 
@@ -56,7 +60,7 @@ Currently used:
 ### Python
 
 ```bash
-python 1_twosum_1.py
+python 1_twoSum_1.py
 ```
 
 > Files only define a `Solution` class. To run directly, add a small test at the bottom, for example:
@@ -69,7 +73,7 @@ python 1_twosum_1.py
 ### Java
 
 ```bash
-javac 1_twosum_1.java
+javac 1_twoSum_1.java
 java Solution
 ```
 
