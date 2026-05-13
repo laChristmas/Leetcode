@@ -46,7 +46,7 @@
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 简单 | [✓](./1_twoSum_1.py) | [✓](./1_twoSum_1.java) | 哈希表，一次遍历 |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 中等 | [✓](./49_groupAnagrams_1.py) | [✓](./49_groupAnagrams_1.java) | 以排序后的字符串作为哈希键 |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 中等 | [✓](./128_longestConsecutiveSequence_1.py) | [✓](./128_longestConsecutiveSequence_1.java) | 哈希集合，只从序列起点向后扩展（`O(n)`） |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 简单 | [✓₁](./283_moveZeroes_1.py) · [✓₂](./283_moveZeroes_2.py) | [✓₁](./283_moveZeroes_1.java) · [✓₂](./283_moveZeroes_2.java) | 1) 计数 + 左移 + 末尾补 0（两次遍历）；2) 快慢双指针，遇到非零就交换（一次遍历） |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 简单 | [✓₁](./283_moveZeroes_1.py)&nbsp;·&nbsp;[✓₂](./283_moveZeroes_2.py) | [✓₁](./283_moveZeroes_1.java)&nbsp;·&nbsp;[✓₂](./283_moveZeroes_2.java) | 1) 计数 + 左移 + 末尾补 0（两次遍历）；2) 快慢双指针，遇到非零就交换（一次遍历） |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 简单 | [✓](./2235_addTwoIntegers_1.py) | [✓](./2235_addTwoIntegers_1.java) | 热身题 |
 
 > 持续更新中。
