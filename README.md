@@ -1,5 +1,7 @@
 # Leetcode
 
+English | [简体中文](./README.zh-CN.md)
+
 My LeetCode practice repository for algorithms and data structures. I keep solutions in different languages and approaches for the same problem when it helps to compare ideas.
 
 > "Talk is cheap. Show me the code." — Linus Torvalds
