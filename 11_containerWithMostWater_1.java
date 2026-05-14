@@ -8,15 +8,12 @@ class Solution {
             if (height[left] <= current) {
                 left++;
                 continue;
-            }
-            if (height[right] <= current) {
+            }else if (height[right] <= current) {
                 right--;
                 continue;
             }
-
             current = Math.min(height[left], height[right]);
-            int area = current * (right - left);
-            maxArea = Math.max(maxArea, area);
+            maxArea = Math.max(maxArea, current * (right - left));
         }
         return maxArea;
     }
