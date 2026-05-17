@@ -44,6 +44,8 @@ Conventions:
 | # | Problem | Difficulty | Python | Java | Notes |
 | :--: | :--- | :--: | :----: | :--: | :--- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [✓](./1_twoSum_1.py) | [✓](./1_twoSum_1.java) | Hash map, single pass |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [✓](./11_containerWithMostWater_1.py) | [✓](./11_containerWithMostWater_1.java) | Two pointers from both ends; advance the shorter side |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [✓](./15_3Sum_1.py) | [✓](./15_3Sum_1.java) | Sort, fix pivot + two pointers; skip duplicate triplets |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [✓](./49_groupAnagrams_1.py) | [✓](./49_groupAnagrams_1.java) | Hash map keyed by sorted string |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [✓](./128_longestConsecutiveSequence_1.py) | [✓](./128_longestConsecutiveSequence_1.java) | Hash set, expand only from sequence starts (`O(n)`) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [✓₁](./283_moveZeroes_1.py)&nbsp;·&nbsp;[✓₂](./283_moveZeroes_2.py) | [✓₁](./283_moveZeroes_1.java)&nbsp;·&nbsp;[✓₂](./283_moveZeroes_2.java) | 1) Count zeros, shift non-zeros left, zero-fill the tail (two-pass); 2) Fast/slow two-pointer, swap on non-zero (one-pass) |
